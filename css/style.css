@@ -1,0 +1,78 @@
+  body {
+      background-color: #323332;
+      padding: 0 20px;
+  }
+  
+  .wrapper {
+      position: relative;
+      max-width: 450px;
+      margin: 150px auto;
+  }
+  
+  .wrapper .search-input {
+      background-color: #fff;
+      width: 100%;
+      border-radius: 5px;
+      box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+  }
+  
+  .search-input input {
+      height: 45px;
+      width: 100%;
+      outline: none;
+      border: none;
+      border-radius: 5px;
+      padding-left: 2.375rem;
+      font-size: 17px;
+  }
+  
+  .search-input .icon {
+      height: 45px;
+      width: 45px;
+      line-height: 45px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      text-align: center;
+      font-size: 20px;
+      color: grey;
+      cursor: pointer;
+  }
+  
+  .autocom-box {
+      border-radius: 5px;
+      background-color: #6fcf97;
+  }
+  
+  .autocom-box li {
+      list-style: none;
+      padding-left: 2.375rem;
+      width: 100%;
+      cursor: default;
+      border-radius: 5px;
+      background-color: #6fcf97;
+  }
+  
+  .autocom-box li:hover {
+      background-color: #69c38f;
+  }
+  
+  .autocom-box li p {
+      margin: 0;
+  }
+  
+  .autocom-box li p:nth-child(1) {
+      color: #fff;
+      font-size: 20px;
+  }
+  
+  .autocom-box li p:nth-child(2) {
+      color: #798a80;
+      font-size: 15px;
+  }
+  
+  .autocom-box li p.not-found {
+      font-size: 18px;
+      color: #798a80;
+      padding: 0.7rem 0 0.7rem 0rem;
+  }
